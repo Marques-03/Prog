@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+    char nome[] = "Marques";
+    int idade = 21;
+    char curso[] = "L.Computação";
+
+    printf("Nome: %s\n", nome);
+    printf("Idade: %d\n", idade);
+    printf("Curso: %s\n", curso);
+
+    int n1, n2, soma, subtracao, multiplicacao;
+
+    printf("Digite o num 1: ");
+    scanf("%d", &n1);
+
+    printf("Digite o num 2: ");
+    scanf("%d", &n2);
+
+    soma = n1 + n2;
+    subtracao = n1 - n2;
+    multiplicacao = n1 * n2;
+
+    printf("Soma: %d\n", soma);
+    printf("Subtração: %d\n", subtracao);
+    printf("Multiplicação: %d\n", multiplicacao);
+
+    return 0;
+}
